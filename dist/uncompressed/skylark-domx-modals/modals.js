@@ -5,6 +5,6 @@ define([
   "use strict";
 
 
-  return skylark.attach("domx.modals",{});
+  return skylark.attach("domx.plugins.modals",{});
 
 });

@@ -5,7 +5,7 @@ define([
   "skylark-domx-noder",
   "skylark-domx-geom",
   "skylark-domx-query",
-  "skylark-domx-plugins",
+  "skylark-domx-plugins-base",
   "./modals"
 ],function(langx,browser,eventer,noder,geom,$,plugins,modals){
 
@@ -48,6 +48,10 @@ define([
           .load(this.options.remote, langx.proxy(function () {
             this.$element.trigger('loaded.modal')
           }, this))
+      }
+
+      if (this.show) {
+        this.show();
       }
     },
 
