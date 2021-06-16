@@ -1,5 +1,5 @@
 define([
-	"./bootbox"
+	"./modals"
 ],function(bootbox){
 	return bootbox;
 })
