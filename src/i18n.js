@@ -1,4 +1,4 @@
-define([],function(){define([
+define([
   "skylark-langx/langx", 
   "./modals"
 ],function(langx,modals){

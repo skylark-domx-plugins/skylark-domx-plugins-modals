@@ -1,0 +1,1 @@
+{"version":3,"sources":["modals.js"],"names":["define","skylark","attach"],"mappings":";;;;;;;AAAAA,QACE,yBACA,SAASC,GAET,aAGA,OAAOA,EAAQC,OAAO","file":"../modals.js","sourcesContent":["define([\n  \"skylark-langx/skylark\"\n],function(skylark) {\n\n  \"use strict\";\n\n\n  return skylark.attach(\"domx.plugins.modals\",{});\n\n});\n"]}
