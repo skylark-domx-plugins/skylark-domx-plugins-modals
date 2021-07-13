@@ -18,7 +18,7 @@ define([
   var Modal = plugins.Plugin.inherit({
     klassName: "Modal",
 
-    pluginName : "domx.modal",
+    pluginName : "lark.modals.modal",
 
     options : {
       backdrop: true,
