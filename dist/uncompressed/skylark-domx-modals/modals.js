@@ -1,10 +1,8 @@
 define([
-  "skylark-langx/skylark"
-],function(skylark) {
+    "skylark-domx-plugins-base/plugins"
+],function (plugins) {
+    'use strict';
 
-  "use strict";
-
-
-  return skylark.attach("domx.plugins.modals",{});
+    return plugins.modals = {};
 
 });

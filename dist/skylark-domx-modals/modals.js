@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-domx/skylark-domx-modals/
  * @license MIT
  */
-define(["skylark-langx/skylark"],function(a){"use strict";return a.attach("domx.plugins.modals",{})});
+define(["skylark-domx-plugins-base/plugins"],function(s){"use strict";return s.modals={}});
 //# sourceMappingURL=sourcemaps/modals.js.map
